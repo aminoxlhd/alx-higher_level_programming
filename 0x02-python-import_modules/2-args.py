@@ -1,13 +1,17 @@
 #!/usr/bin/python3
 
-if __name__ == "__main__":
+import sys
 
-    import sys
 
-    count = len(sys.argv) - 1
+def print_args():
+    argc = len(sys.argv) - 1
 
-    print("{} arguments{}{}".format(
-        count, "s" if count != 1 else "", ":" if count else "."))
+    print("{} argument{}{}".format(
+        argc, "s" if argc != 1 else "", ":" if argc else "."))
 
-    for i in range(1, count + 1):
+    for i in range(1, argc + 1):
         print("{}: {}".format(i, sys.argv[i]))
+
+
+if __name__ == "__main__":
+    print_args()
