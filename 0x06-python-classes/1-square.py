@@ -3,9 +3,9 @@
 
 
 class Square():
-    """ representing class Square """
+    """representing class Square"""
 
-    def ___init___(self, size):
+    def __init__(self, size):
     """ Initialize the class.
 
         Args:
