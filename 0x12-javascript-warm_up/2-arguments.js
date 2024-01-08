@@ -1,4 +1,5 @@
 #!/usr/bin/node
+
 const argv = process.argv.length;
 
 if (argv === 2) {
