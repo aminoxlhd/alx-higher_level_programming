@@ -5,6 +5,7 @@ import sys
 import urllib.parse 
 import urllib.request
 
+
 url = sys.argv[1]
 
 value = {"email": sys.argv[2]}
