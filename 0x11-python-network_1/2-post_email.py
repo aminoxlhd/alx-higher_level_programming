@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-""" akes in a URL and an email, sends a POST request to the passed URL """
+"""akes in a URL and an email, sends a POST request to the passed URL """
 
 import sys
 import urllib.parse 
